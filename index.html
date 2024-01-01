@@ -13,7 +13,7 @@
     WebViewer({
       path: './', // path to the PDF.js Express'lib' folder on your server
       licenseKey: 'Insert commercial license key here after purchase',
-      initialDoc: './PDF.js Express Evaluation License.pdf',
+      initialDoc: 'https://pdftron.s3.amazonaws.com/downloads/pl/webviewer-demo.pdf',
       // initialDoc: '/path/to/my/file.pdf',  // You can also use documents on your server
     }, document.getElementById('viewer'))
     .then(instance => {
